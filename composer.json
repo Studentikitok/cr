@@ -1,0 +1,22 @@
+{
+    "name": "studentikitok/cr",
+    "description": "library",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "StraponBace",
+            "email": "ponomarev.tima2005@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.2"
+    },
+    "autoload": {
+       "psr-4": {
+           "Src\\": "core/Src/",
+           "": "app/"
+       }
+   }
+}
